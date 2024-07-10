@@ -260,7 +260,7 @@ const BottomMenu = ({ isOpen }) => {
   ];
 
   return (
-    <div className="xl:shadow-md relative xl:bg-white xl:py-4 xl:top-0 xl:left-0 xl:sticky">
+    <div className="xl:shadow-md z-50 relative xl:bg-white xl:py-4 xl:top-0 xl:left-0 xl:sticky">
       <Container className={"xl:block hidden "}>
         <div className="flex justify-between">
           {links.map((link, index, arr) => (
