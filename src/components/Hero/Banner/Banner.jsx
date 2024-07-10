@@ -3,7 +3,7 @@ import Container from "../../Shared/Container";
 
 function Banner() {
   return (
-    <Container className="lg:py-8 py-4 flex flex-col lg:flex-row">
+    <Container className="lg:py-8 py-4 z-10 flex flex-col lg:flex-row">
       <div className="xl:pl-[0px] mb-[15px]  px-[15px]">
         <img
           src="https://www.startech.com.bd/image/cache/catalog/home/banner/eid-mobile-fest.ai-banner-982x500.webp"
@@ -18,17 +18,17 @@ function Banner() {
             <input
               type="text"
               placeholder="Search and Selecte Product"
-              className="w-full focus:outline-none rounded-md h-[42px] pl-[20px] pr-[40px]"
+              className="w-full z-10 focus:outline-none rounded-md h-[42px] pl-[20px] pr-[40px]"
             />
-            <IoMdSearch className="size-6 absolute top-[9px] right-[7px]" />
+            <IoMdSearch className="size-6 z-10 absolute top-[9px] right-[7px]" />
           </div>
           <div className="relative xl:block  mb-4">
             <input
               type="text"
               placeholder="Search and Selecte Product"
-              className="w-full focus:outline-none rounded-md h-[42px] pl-[20px] pr-[40px]"
+              className="w-full z-10 focus:outline-none rounded-md h-[42px] pl-[20px] pr-[40px]"
             />
-            <IoMdSearch className="size-6 absolute top-[9px] right-[7px]" />
+            <IoMdSearch className="size-6 z-10 absolute top-[9px] right-[7px]" />
           </div>
           <button className="w-full border-2 font-bold py-2  border-secondary text-secondary">View Comparison</button>
         </div>
