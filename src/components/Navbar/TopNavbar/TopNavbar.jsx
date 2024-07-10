@@ -8,7 +8,7 @@ import { BsFillLightningFill } from "react-icons/bs";
 
 const TopNavBar = ({ isOpen, setIsOpen }) => {
   return (
-    <div className="bg-hfbg py-[15px] sticky top-0 left-0 xl:relative">
+    <div className="bg-hfbg py-[15px] z-50 sticky top-0 left-0 xl:relative">
       <Container className="flex items-center">
         <div className="ml-4 xl:hidden">
           <HamburgerMenu isOpen={isOpen} setIsOpen={setIsOpen} />
